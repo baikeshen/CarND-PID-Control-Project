@@ -43,6 +43,13 @@ int main()
   // Only differential.
   // pid.Init(0.0, 0.0, 1.0);
 
+  //pid 1.0 0.0 0.0`
+  //pid 0.0 1.0 0.0`
+  //pid 0.0 0.0 1.0`
+  //pid 1.5 0.1 0.0`
+  //pid 1.5 0.0 2.5`
+  //pid 0.0 0.1 2.5`
+
   // Final parameters.
   
   pid.Init(0.2, 0.001, 2.5);

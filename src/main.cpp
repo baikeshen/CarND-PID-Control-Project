@@ -44,7 +44,7 @@ int main()
   // pid.Init(0.0, 0.0, 1.0);
 
   // Final parameters.
-  //pid.Init(0.15, 0.0, 2.5); Darinet method
+  
   pid.Init(0.2, 0.001, 2.5);
 
   h.onMessage([&pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {

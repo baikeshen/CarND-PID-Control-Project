@@ -63,7 +63,7 @@ for instructions and the project rubric.
 
 ### The PID procedure follows what was taught in the lessons.
 
-The PID implementation is done on the [./src/PID.cpp](./src/PID.cpp). The [PID::UpdateError](./src/PID.cpp#L33) method calculates proportional, integral and derivative errors and the [PID::TotalError](./src/PID.cpp#L55) calculates the total error using the appropriate coefficients.
+The PID implementation is done on the [./src/PID.cpp](./src/PID.cpp). The [PID::UpdateError](./src/PID.cpp#L23) method calculates proportional, integral and derivative errors and the [PID::TotalError](./src/PID.cpp#L35) calculates the total error using the appropriate coefficients.
 
 ## Reflection
 

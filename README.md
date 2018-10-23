@@ -87,7 +87,7 @@ The parameters were chosen manually by try and error. First, make sure the car c
 - `//pid 0.0 0.1 2.5`
 
 PD contoller with Ki performed well actually, but has a intergral part controls the error in reality, so I choosed a full PID contoller with parameters:
-  - `Kp = 0.02, Ki = 0.001, Kd = 3.0`
+  - `Kp = 0.2, Ki = 0.001, Kd = 2.5`
 
 The result looks smooth and it could finish laps and laps well in simulator.
 

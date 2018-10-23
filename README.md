@@ -95,7 +95,7 @@ The result looks smooth and it could finish laps and laps well in simulator.
 
 ### The vehicle must successfully drive a lap around the track.
 
-A short video with the final parameters is [./CarND-PID-2018-10-21.mp4](../CarND-PID-2018-10-21.mp4).
+A short video with the final parameters is [./CarND-PID-2018-10-21.mp4](./CarND-PID-2018-10-21.mp4).
 
 
 
